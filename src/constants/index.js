@@ -1,30 +1,11 @@
 import { steps } from "framer-motion";
 import {
-  mobile,
-  backend,
-  creator,
-  web,
-  javascript,
-  ai,
-  ae,
-  pr,
-  ps,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  firebase,
-  git,
-  figma,
-  wordpress,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  threejs,
+ 
+
+
   cc,
+
+  shopify,
   vsc,
   tiktok,
   i1,
@@ -83,60 +64,7 @@ const services = [
   },
 ];
 
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "Firebase",
-    icon: firebase,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "Figma",
-    icon: figma,
-  },
-  {
-    name: "WordPress",
-    icon: wordpress,
-  },
-  {
-    name: "Illustrator",
-    icon: ai,
-  },
-];
+
 
 const experiences = [
   {
@@ -358,4 +286,4 @@ const step = [
 ]
 
 
-export {step, services, statistics, technologies, experiences, testimonials, projects };
+export {step, services, statistics, experiences, testimonials, projects };
