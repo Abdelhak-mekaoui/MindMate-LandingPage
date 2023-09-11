@@ -24,12 +24,12 @@ function ExperienceAccordion({ experience, playstore, appstore }) {
       <h3 className="text-white text-25px p-0 m-0">
         {experience.title}
       </h3>
-      {experience.title === "Download" && !isHovered && (
+      {experience.title === "Download Our App" && !isHovered && (
         <div className="tooltip text-black">
           <img src={arrow} alt="Arrow Icon" width="50rem"/>
         </div>
       )}
-      {experience.title === "Download" && isHovered && (
+      {experience.title === "Download Our App" && isHovered && (
         <div className="grid grid-cols-12">
           <div className="col-span-6 p-4 text-white flex items-center">
             <a href="https://play.google.com/store/games" target="_blank" rel="noopener noreferrer">
@@ -65,7 +65,7 @@ const ExperienceCard = ({ experience }) => {
       icon={
         <div className='flex justify-center items-center w-full h-full'>
           <img
-            src={experience.icon}
+            src={experience.img}
             alt={experience.company_name}
             className='w-[70%] h-[70%] object-contain'
           />

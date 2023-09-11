@@ -31,6 +31,12 @@ import tesla from "./company/tesla.png";
 import cc from "./story2.png";
 import tiktok from "./moni2.png";
 import vsc from "./cs2.png";
+import i1 from "./1.png";
+import i2 from "./2.png";
+import i3 from "./3.png";
+import i4 from "./4.png";
+
+
 
 export {
   logo,
@@ -64,4 +70,8 @@ export {
   cc,
   vsc,
   tiktok,
+  i1,
+  i2,
+  i3,
+  i4,
 };

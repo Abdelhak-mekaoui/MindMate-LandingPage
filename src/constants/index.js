@@ -27,7 +27,13 @@ import {
   cc,
   vsc,
   tiktok,
+  i1,
+  i2,
+  i3,
+  i4,
 } from "../assets";
+
+
 
 import avt1 from "../assets/avatar1.jpg";
 import avt2 from "../assets/avatar2.jpg";
@@ -194,7 +200,7 @@ const testimonials = [
     name: "Alzheimer's Society",
     designation: "",
     company: "",
-    image: avt1,
+    image: vsc,
   },
   {
     testimonial:
@@ -202,14 +208,14 @@ const testimonials = [
     name: "Journal of the American Pharmacists Association",
     designation: "",
     company: "",
-    image: avt2,
+    image: vsc,
   },
   {
     testimonial: "Studies have demonstrated that real-time monitoring with video streaming and vital sign signaling enhances safety and reduces the risk of adverse events in Alzheimer's patients.",
     name: "Journal of Alzheimer's Disease",
     designation: "",
     company: "",
-    image: avt3,
+    image: vsc,
   },
 ];
 
@@ -335,15 +341,19 @@ export const features = [
 
 const step = [
   {
-    title: "Get our Product"
+    title: "Get our Product",
+    img:i1
   },
   {
-    title: "Download Our App"
+    title: "Download Our App",
+    img:i2
   },
   {
-    title: "Login"
+    title: "Login",
+    img:i3
   },{
-    title: "Get better!"
+    title: "Get better!",
+    img:i4
   },
 ]
 

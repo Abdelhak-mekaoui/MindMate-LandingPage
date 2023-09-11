@@ -39,9 +39,6 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} cursor-default`}>
-          Introduction
-        </p>
         <h2 className={`${styles.sectionHeadText} cursor-default`}>
           About US.
         </h2>
@@ -49,10 +46,9 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[20px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[25px] max-w-3xl leading-[30px]"
       >
-        We are a dedicated team with a shared mission to transform Alzheimer's care. Our innovative solution seamlessly combines AIOT-powered companionship, precise medication management, cognitive stimulation, and remote monitoring. Beyond care, we're passionate about raising awareness of the challenges faced by Alzheimer's patients and their caregivers. By prioritizing user-centric design, we ensure a seamless and empathetic experience for all stakeholders. Through our pioneering approach, we're not only elevating Alzheimer's care but also advocating for greater awareness, fostering a compassionate and informed community.
-      </motion.p>
+Our innovative solution seamlessly combines AIOT-powered companionship, precise medication management, cognitive stimulation, and remote monitoring. Beyond care, we're passionate about raising awareness of the challenges faced by Alzheimer's patients and their caregivers.      </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 justify-center">
         {services.map((service, index) => (
