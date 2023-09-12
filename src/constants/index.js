@@ -1,10 +1,5 @@
-import { steps } from "framer-motion";
 import {
- 
-
-
   cc,
-
   shopify,
   vsc,
   tiktok,
@@ -14,14 +9,6 @@ import {
   i4,
 } from "../assets";
 
-
-
-import avt1 from "../assets/avatar1.jpg";
-import avt2 from "../assets/avatar2.jpg";
-import avt3 from "../assets/avatar3.jfif";
-import project1 from "../assets/portfolio1.png";
-import project2 from "../assets/portfolio2.png";
-import project3 from "../assets/portfolio4.png";
 import Section1 from '../assets/Section41.svg'
 import Section2 from '../assets/Section42.svg'
 import Section3 from '../assets/Section43.svg'
