@@ -16,7 +16,9 @@ const Hero = () => {
         </div>
       </div>
       <div className="w-full ">
-        <img src={brain} alt="" className="hidden z-10 h-screen relative  md:block lg:block" />
+        <button href='#Steps' >
+          <img src={brain} alt="" className="hidden z-10 h-screen relative  md:block lg:block" />
+        </button>
       </div>
   </div>
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-start'>

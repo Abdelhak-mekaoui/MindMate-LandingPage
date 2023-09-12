@@ -10,7 +10,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 const Alzheimer = () => {
   return (
-    <div className="h-screen justify-center">
+    <div className="justify-center">
       <motion.div variants={textVariant()}>
         <h2 className={`${styles.sectionHeadText} cursor-default`}>
           What is Alzheimer?

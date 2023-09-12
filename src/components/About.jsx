@@ -37,7 +37,7 @@ const ServiceCard = ({ index, title, icon }) => (
 
 const About = () => {
   return (
-    <>
+    <div className="lg:h-screen">
       <motion.div variants={textVariant()}>
         <h2 className={`${styles.sectionHeadText} cursor-default`}>
           About US.
@@ -55,7 +55,7 @@ Our innovative solution seamlessly combines AIOT-powered companionship, precise 
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

@@ -36,8 +36,8 @@ export const navLinks = [
     title: "Services",
   },
   {
-    id: "mobile app",
-    title: "mobile app",
+    id: "Steps",
+    title: "Get Started",
   },
   {
     id: "contact",
